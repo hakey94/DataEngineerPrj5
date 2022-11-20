@@ -1,0 +1,24 @@
+{
+	"name": "triggerAgency",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipelineAgency",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Minute",
+				"interval": 15,
+				"startTime": "2022-11-20T09:23:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

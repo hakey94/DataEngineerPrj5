@@ -1,0 +1,9 @@
+{
+	"name": "prj5factory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ea6eb4a0-7e51-4980-ad80-06f5411fbe97",
+		"tenantId": "9b7cbd77-6d6b-4879-8aba-63d7dfb18472"
+	}
+}
